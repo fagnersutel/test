@@ -7,7 +7,9 @@ Data <- read.table(file=URL,
                    header=TRUE, 
                    na.string="")
 
+head(Data)
 write.csv(Data, file = "earthquake.csv")
+
 
 str(Data)
 head(Data, 1)
